@@ -1,0 +1,19 @@
+{
+  "name": "furniture-catalog",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "live-server": "^1.2.1"
+  },
+  "license": "ISC",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andy-pro/furniture-catalog"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npx babel --watch src --out-dir ./static/js --presets react-app/prod"
+  }
+}
